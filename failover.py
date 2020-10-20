@@ -6,8 +6,8 @@ import re
 meraki_config = {
 	'api_key': "",
 	'org_name': "",
-    'tag_placeholder_network': "tag-placeholder",
-    'tag_prefix': "vwan-"
+	'tag_placeholder_network': "tag-placeholder",
+	'tag_prefix': "vwan-"
 }
 
 # Function to authenticate against Meraki SDK with the API key
