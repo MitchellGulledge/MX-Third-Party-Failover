@@ -79,7 +79,7 @@ def swap_tag(network_id):
                     network_tags[tag] = specific_tag
                 elif re.match(secondary_tag_regex, network_tags[tag]):
                     # removing -sec from the tag value
-                    specific_tag = str(network_tags[tag])[-4]
+                    specific_tag = str(network_tags[tag])[:-4]
                     network_tags[tag] = specific_tag
 
             print(network_tags)
